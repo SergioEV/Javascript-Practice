@@ -16,6 +16,6 @@ button.addEventListener('click', function(){
 
 
 });
-const values = ['a','b','c'];
-values[0] = 'aaa';
-console.log(values[0]);
+const containers = document.getElementsByClassName('container');
+containers[1].classList.add('d-none');
+console.log(containers);
